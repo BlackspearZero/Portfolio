@@ -12,3 +12,5 @@ Day 3 -- Switched development environments for simplicity. It is easier to pick 
 Day 4 -- Slow day for programming, just have to make sure I make a commit today. Added a clock object to first pygame game. 
 
 Day 5 -- Added background surfaces.
+
+Day 6 -- Added basic animation.
