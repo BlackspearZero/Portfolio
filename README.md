@@ -14,3 +14,5 @@ Day 4 -- Slow day for programming, just have to make sure I make a commit today.
 Day 5 -- Added background surfaces.
 
 Day 6 -- Added basic animation.
+
+Day 7 -- Added rectangles for better animation.
