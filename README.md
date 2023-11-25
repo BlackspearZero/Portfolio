@@ -18,3 +18,5 @@ Day 6 -- Added basic animation.
 Day 7 -- Added rectangles for better animation.
 
 Day 8 -- Experimenting with collisions.
+
+Day 9 -- Learning more about rectangles.
