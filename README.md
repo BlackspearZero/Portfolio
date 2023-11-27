@@ -21,4 +21,6 @@ Day 8 -- Experimenting with collisions.
 
 Day 9 -- Learning more about rectangles.
 
-Day 10 -- Added Gravity.
+Day 10 -- Added gravity.
+
+Day 11 -- Added collions, a floor, a game over state, and a restart.
