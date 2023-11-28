@@ -24,3 +24,5 @@ Day 9 -- Learning more about rectangles.
 Day 10 -- Added gravity.
 
 Day 11 -- Added collions, a floor, a game over state, and a restart.
+
+Day 12 -- Added score timer.
