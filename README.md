@@ -26,3 +26,5 @@ Day 10 -- Added gravity.
 Day 11 -- Added collions, a floor, a game over state, and a restart.
 
 Day 12 -- Added score timer.
+
+Day 13 --  Added game over text, start text, and game over image.
