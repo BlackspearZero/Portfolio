@@ -28,3 +28,5 @@ Day 11 -- Added collions, a floor, a game over state, and a restart.
 Day 12 -- Added score timer.
 
 Day 13 --  Added game over text, start text, and game over image.
+
+Day 14 --  Added second enemy and refactored collion system.
