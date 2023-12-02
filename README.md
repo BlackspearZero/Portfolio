@@ -32,3 +32,5 @@ Day 13 --  Added game over text, start text, and game over image.
 Day 14 --  Added second enemy and refactored collion system.
 
 Day 15 -- Added animations.
+
+Day 16 -- Refactored player as sprite class object.
