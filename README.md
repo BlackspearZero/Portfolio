@@ -34,3 +34,5 @@ Day 14 --  Added second enemy and refactored collion system.
 Day 15 -- Added animations.
 
 Day 16 -- Refactored player as sprite class object.
+
+Day 17 -- Added Music.
