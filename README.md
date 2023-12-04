@@ -36,3 +36,5 @@ Day 15 -- Added animations.
 Day 16 -- Refactored player as sprite class object.
 
 Day 17 -- Added Music.
+
+Day 18 -- Finished Game!
