@@ -2,6 +2,8 @@
 
 365 Days of Daily Commits
 
+A lot of these will focus on games, but the purpose isn't explicitly game dev, the purpose is to get coding and continue coding. To make coding a habit and use the same guilt trip that a program like DuoLingo does to keep you coming back to motivate myself. I want to create, script, modify, contribute, learn, and generally immerse myself more in the coding community and this is step 1.
+
 
 Day 1 -- Repo initizialized, workspace connected and repo cloned from there. The goal is not necessarily 365 big commits, but A. to build a portfolio outside of my ops work and B. to achieve consistency. This is the only day where a simple readme change will count, although documentation updates of any major significane will count.
 
@@ -40,3 +42,5 @@ Day 17 -- Added Music.
 Day 18 -- Finished Game!
 
 Day 19 -- Initialized new game, making a game in Godot. This will be the second tutorial I am following, looking to jump off the deep end a bit here. The goal is to participate in a game jam in ~6 months or so.
+
+Day 20 -- Added first scene and imported graphics assets.
