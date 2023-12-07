@@ -44,3 +44,5 @@ Day 18 -- Finished Game!
 Day 19 -- Initialized new game, making a game in Godot. This will be the second tutorial I am following, looking to jump off the deep end a bit here. The goal is to participate in a game jam in ~6 months or so.
 
 Day 20 -- Added first scene and imported graphics assets.
+
+Day 21 -- Added player, learned more about scenes.
