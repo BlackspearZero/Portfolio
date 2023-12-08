@@ -46,3 +46,5 @@ Day 19 -- Initialized new game, making a game in Godot. This will be the second 
 Day 20 -- Added first scene and imported graphics assets.
 
 Day 21 -- Added player, learned more about scenes.
+
+Day 22 -- Added another node/scene.
