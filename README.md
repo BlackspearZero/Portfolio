@@ -50,3 +50,5 @@ Day 21 -- Added player, learned more about scenes.
 Day 22 -- Added another node/scene.
 
 Day 23 -- Added first script.
+
+Day 24 -- Added scaling and speed to demo object.
