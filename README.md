@@ -56,3 +56,5 @@ Day 24 -- Added scaling and speed to demo object.
 Day 25 -- Learned more about scripting.
 
 Day 26 -- Added input map
+
+Day 27 -- Added unique name

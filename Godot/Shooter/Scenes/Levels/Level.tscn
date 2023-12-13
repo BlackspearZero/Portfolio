@@ -14,3 +14,12 @@ script = ExtResource("2_l8hog")
 
 [node name="Player" parent="." instance=ExtResource("4_o0tld")]
 position = Vector2(569, 313)
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D"]
+
+[node name="Target" type="Sprite2D" parent="Sprite2D/Sprite2D/Sprite2D"]
+unique_name_in_owner = true

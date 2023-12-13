@@ -11,6 +11,7 @@ func _ready():
 	test_scale = 2
 	scale = Vector2(test_scale, test_scale)
 
+	print(%Target.position)
 func _process(delta):
 	pos.x += speed * delta
 	position = pos
