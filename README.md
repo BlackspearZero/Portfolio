@@ -62,3 +62,5 @@ Day 27 -- Added unique name
 Day 28 -- Added Physics!!
 
 Day 29 -- Added more physics
+
+Day 30 -- Added Signals

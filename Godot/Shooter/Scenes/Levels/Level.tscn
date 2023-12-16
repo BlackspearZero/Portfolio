@@ -23,6 +23,7 @@ scale = Vector2(1.01281, 1.00657)
 polygon = PackedVector2Array(-884.663, -1355.09, -884.663, -41.7257, -880.714, -15.8955, -868.866, 29.8041, -848.131, 70.5363, -825.422, 105.308, -802.714, 126.171, -783.954, 144.053, -759.27, 159.949, -725.7, 176.838, -682.257, 187.766, -648.687, 193.727, -614.13, 193.727, 172.786, 193.727, 172.786, -83.4514, 1017.96, -83.4514, 1017.96, 193.727, 1848.31, 193.727, 1886.82, 186.772, 1919.4, 174.851, 1951.99, 157.962, 1984.57, 134.118, 2018.14, 100.34, 2043.81, 61.5951, 2072.44, -9.93469, 2075.4, -52.6539, 2074.42, -1355.09)
 
 [node name="Area2D" type="Area2D" parent="Gate"]
+position = Vector2(-2, 0)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Gate/Area2D"]
 position = Vector2(600, 62.5)
@@ -30,3 +31,6 @@ shape = SubResource("RectangleShape2D_homl5")
 
 [node name="Player" parent="." instance=ExtResource("4_o0tld")]
 position = Vector2(559, 324)
+
+[connection signal="body_entered" from="Gate/Area2D" to="." method="_on_area_2d_body_entered"]
+[connection signal="body_exited" from="Gate/Area2D" to="." method="_on_area_2d_body_exited"]
