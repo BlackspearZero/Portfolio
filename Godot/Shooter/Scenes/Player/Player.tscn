@@ -1,7 +1,7 @@
 [gd_scene load_steps=4 format=3 uid="uid://c62takbd4csyy"]
 
 [ext_resource type="Texture2D" uid="uid://uo8wh2krs8hf" path="res://graphics/player/player.png" id="1_4a672"]
-[ext_resource type="Script" path="res://Scenes/Player/Player.gd" id="1_feyhl"]
+[ext_resource type="Script" path="res://Scenes/Player/player.gd" id="1_feyhl"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_fdbw2"]
 radius = 60.0333
@@ -16,3 +16,14 @@ texture = ExtResource("1_4a672")
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(1, 1)
 shape = SubResource("CircleShape2D_fdbw2")
+
+[node name="LaserTimer" type="Timer" parent="."]
+wait_time = 0.5
+one_shot = true
+
+[node name="GrenadeTimer" type="Timer" parent="."]
+wait_time = 2.0
+one_shot = true
+
+[connection signal="timeout" from="LaserTimer" to="." method="_on_laser_timer_timeout"]
+[connection signal="timeout" from="GrenadeTimer" to="." method="_on_grenade_timer_timeout"]

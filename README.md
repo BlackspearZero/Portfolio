@@ -39,7 +39,7 @@ Day 16 -- Refactored player as sprite class object.
 
 Day 17 -- Added Music.
 
-Day 18 -- Finished Game!
+Day 18 -- Finished Game! Now onto a new tutorial.
 
 Day 19 -- Initialized new game, making a game in Godot. This will be the second tutorial I am following, looking to jump off the deep end a bit here. The goal is to participate in a game jam in ~6 months or so.
 
@@ -64,3 +64,5 @@ Day 28 -- Added Physics!!
 Day 29 -- Added more physics
 
 Day 30 -- Added Signals
+
+Day 31 -- Added Timers for Grenade and Laser. I think maybe once I have this game done, my next challenge will be to follow his PyGame tutorial re: a Zelda-like with some Dark Souls elements, but instead of making it in PyGame, try and make it in Godot as he is making it in PyGame
