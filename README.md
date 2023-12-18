@@ -29,7 +29,7 @@ Day 11 -- Added collions, a floor, a game over state, and a restart.
 
 Day 12 -- Added score timer.
 
-Day 13 --  Added game over text, start text, and game over image.
+Day 13 --  Added gameover text, start text, and game over image.
 
 Day 14 --  Added second enemy and refactored collion system.
 
@@ -37,9 +37,9 @@ Day 15 -- Added animations.
 
 Day 16 -- Refactored player as sprite class object.
 
-Day 17 -- Added Music.
+Day 17 -- Added music.
 
-Day 18 -- Finished Game! Now onto a new tutorial.
+Day 18 -- Finished game! Now onto a new tutorial.
 
 Day 19 -- Initialized new game, making a game in Godot. This will be the second tutorial I am following, looking to jump off the deep end a bit here. The goal is to participate in a game jam in ~6 months or so.
 
@@ -59,10 +59,12 @@ Day 26 -- Added input map
 
 Day 27 -- Added unique name
 
-Day 28 -- Added Physics!!
+Day 28 -- Added physics!!
 
 Day 29 -- Added more physics
 
-Day 30 -- Added Signals
+Day 30 -- Added signals
 
-Day 31 -- Added Timers for Grenade and Laser. I think maybe once I have this game done, my next challenge will be to follow his PyGame tutorial re: a Zelda-like with some Dark Souls elements, but instead of making it in PyGame, try and make it in Godot as he is making it in PyGame
+Day 31 -- Added timers for Grenade and Laser. I think maybe once I have this game done, my next challenge will be to follow his PyGame tutorial re: a Zelda-like with some Dark Souls elements, but instead of making it in PyGame, try and make it in Godot as he is making it in PyGame
+
+Day 32 -- Added custom signal
