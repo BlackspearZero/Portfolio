@@ -68,3 +68,5 @@ Day 30 -- Added signals
 Day 31 -- Added timers for Grenade and Laser. I think maybe once I have this game done, my next challenge will be to follow his PyGame tutorial re: a Zelda-like with some Dark Souls elements, but instead of making it in PyGame, try and make it in Godot as he is making it in PyGame
 
 Day 32 -- Added custom signal
+
+Day 33 -- Added movement and collisions for Grenade and Laser as well as proper spawn points relative to the player node.
