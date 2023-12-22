@@ -73,4 +73,6 @@ Day 33 -- Added movement and collisions for Grenade and Laser as well as proper 
 
 Day 34 -- Added camera and made Laser and Grenade move correctly.
 
-Day 35 -- Began work on tilemap
+Day 35 -- Began work on tilemap.
+
+Day 36 -- More work on tilemap.
