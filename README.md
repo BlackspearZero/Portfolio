@@ -78,3 +78,5 @@ Day 35 -- Began work on tilemap.
 Day 36 -- More work on tilemap.
 
 Day 37 -- Created new tilemap.
+
+Day 38 -- Modified building (House).
