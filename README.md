@@ -80,3 +80,5 @@ Day 36 -- More work on tilemap.
 Day 37 -- Created new tilemap.
 
 Day 38 -- Modified building (House).
+
+Day 39 -- Worked on collision layers and painting collisions on the tile set.

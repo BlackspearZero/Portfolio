@@ -75,7 +75,8 @@ layer_1/name = "Walls"
 layer_1/tile_data = PackedInt32Array(-65540, 131072, 0, -65541, 65536, 1, -5, 0, 2, 65531, 0, 2, 131067, 0, 2, 196603, 0, 2, 262139, 0, 2, 327675, 65536, 2, 327676, 65536, 0, 327677, 65536, 0, 327678, 65536, 0, 327679, 65536, 0, 262144, 65536, 0, 262145, 65536, 0, 262146, 65536, 0, 262147, 65536, 0, 262148, 65536, 0, 262149, 65536, 0, 262150, 131072, 2, -65530, 0, 2, 6, 0, 2, 65542, 0, 2, 131078, 0, 2, 196614, 0, 2, -131066, 131072, 1, -131067, 0, 0)
 
 [node name="Moss1" type="Sprite2D" parent="Ground"]
-position = Vector2(-1587, -373)
+position = Vector2(-1538, -339)
+rotation = 3.49066
 texture = ExtResource("4_ru71j")
 
 [node name="Moss2" type="Sprite2D" parent="Ground"]
@@ -83,7 +84,7 @@ position = Vector2(2312, -391)
 texture = ExtResource("5_g8yra")
 
 [node name="Moss3" type="Sprite2D" parent="Ground"]
-position = Vector2(-1558, 1548)
+position = Vector2(1361, 835)
 texture = ExtResource("6_1j8uy")
 
 [node name="Moss4" type="Sprite2D" parent="Ground"]
@@ -91,12 +92,12 @@ position = Vector2(2212, 1562)
 texture = ExtResource("7_168ds")
 
 [node name="Moss5" type="Sprite2D" parent="Ground"]
-position = Vector2(-598, 1069)
+position = Vector2(217, 416)
 texture = ExtResource("8_mmt5y")
 
 [node name="House" parent="Ground" instance=ExtResource("11_cx3mh")]
-position = Vector2(-2365, 1816)
-rotation = 4.71239
+position = Vector2(-1113, 2750)
+rotation = 3.92699
 
 [node name="Gate" parent="." instance=ExtResource("3_sm073")]
 position = Vector2(361, -921)
