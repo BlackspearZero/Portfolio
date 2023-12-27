@@ -84,3 +84,5 @@ Day 38 -- Modified building (House).
 Day 39 -- Worked on collision layers and painting collisions on the tile set.
 
 Day 40 -- Made progress on tile set collisions.
+
+Day 41 -- Finished painting tile set collisions.
