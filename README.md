@@ -88,3 +88,5 @@ Day 40 -- Made progress on tile set collisions.
 Day 41 -- Finished painting tile set collisions.
 
 Day 42 -- Experimenting with steam particles.
+
+Day 43 -- Finished steam particles, experimented with laser particles.
