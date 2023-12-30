@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" path="res://Scenes/Levels/level.gd" id="1_h6vq4"]
 [ext_resource type="Texture2D" uid="uid://dj3q8ax1dlhsm" path="res://graphics/ground/stones.png" id="2_ayk21"]
-[ext_resource type="PackedScene" uid="uid://c62takbd4csyy" path="res://Scenes/Player/player.tscn" id="3_bh7ix"]
+[ext_resource type="PackedScene" uid="uid://c62takbd4csyy" path="res://Scenes/Player/Player.tscn" id="3_bh7ix"]
 [ext_resource type="Texture2D" uid="uid://dkulrgovx86j0" path="res://graphics/decals/dirt_patch.png" id="3_cs1gf"]
 [ext_resource type="PackedScene" uid="uid://dhqubbfc2a3ww" path="res://Scenes/Objects/gate.tscn" id="3_sm073"]
 [ext_resource type="Texture2D" uid="uid://c166j5t6kqq2c" path="res://graphics/decals/moss/moss_1.png" id="4_ru71j"]
