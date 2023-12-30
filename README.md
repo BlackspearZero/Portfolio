@@ -90,3 +90,5 @@ Day 41 -- Finished painting tile set collisions.
 Day 42 -- Experimenting with steam particles.
 
 Day 43 -- Finished steam particles, experimented with laser particles.
+
+Day 44 -- Created wall light template.
