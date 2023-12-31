@@ -92,3 +92,5 @@ Day 42 -- Experimenting with steam particles.
 Day 43 -- Finished steam particles, experimented with laser particles.
 
 Day 44 -- Created wall light template.
+
+Day 45 -- Finishing touches on first light, worked on second light.
