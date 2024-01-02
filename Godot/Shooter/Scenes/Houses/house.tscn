@@ -1,4 +1,4 @@
-[gd_scene load_steps=7 format=3 uid="uid://du4j8lfw12i13"]
+[gd_scene load_steps=11 format=3 uid="uid://du4j8lfw12i13"]
 
 [ext_resource type="Texture2D" uid="uid://diotusjbqy7r" path="res://graphics/tilesets/interior.png" id="1_7ihmy"]
 [ext_resource type="PackedScene" uid="uid://bl3mm6hdmxifx" path="res://Scenes/Objects/simple_light.tscn" id="2_k6b76"]
@@ -6,6 +6,18 @@
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_atjy5"]
 size = Vector2(4045, 2087)
+
+[sub_resource type="OccluderPolygon2D" id="OccluderPolygon2D_8dxse"]
+polygon = PackedVector2Array(72, -195, 72, 195, -72, 195, -72, -195)
+
+[sub_resource type="OccluderPolygon2D" id="OccluderPolygon2D_w8ruq"]
+polygon = PackedVector2Array(-195, -72, 195, -72, 195, 72, -195, 72)
+
+[sub_resource type="OccluderPolygon2D" id="OccluderPolygon2D_obto6"]
+polygon = PackedVector2Array(-195, -72, 195, -72, 195, 72, -195, 72)
+
+[sub_resource type="OccluderPolygon2D" id="OccluderPolygon2D_pgqck"]
+polygon = PackedVector2Array(72, -195, 72, 195, -72, 195, -72, -195)
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_h1i7p"]
 resource_name = "interior"
@@ -25,6 +37,7 @@ texture_region_size = Vector2i(390, 390)
 3:0/0/physics_layer_0/angular_velocity = 0.0
 3:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(5.65685, -0.707108, 25.4558, -16.9706, 44.5477, -30.4056, 64.3467, -43.1335, 88.3884, -53.7401, 115.966, -63.6396, 150.614, -70.0036, 172.888, -72.4785, 195, -72, 195, 71.7714, 165.817, 73.1856, 139.654, 80.9637, 118.087, 93.3381, 99, 111, 86.9741, 129.401, 77.5, 148.5, 72.1249, 174.655, 71.7713, 195, -71.4178, 195, -72.1249, 168.291, -68.5894, 143.543, -66.1145, 127.986, -61.1647, 108.894, -57.9828, 96.8736, -48.7904, 77.0746, -36.0625, 53.7401, -16.9706, 25.4558)
 4:0/0 = 0
+4:0/0/occlusion_layer_0/polygon = SubResource("OccluderPolygon2D_w8ruq")
 4:0/0/physics_layer_0/linear_velocity = Vector2(0, 0)
 4:0/0/physics_layer_0/angular_velocity = 0.0
 4:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(195, 71.9481, 195, -71.7713, -195, -72.1249, -195, 71.7713)
@@ -46,10 +59,12 @@ texture_region_size = Vector2i(390, 390)
 2:1/0/physics_layer_0/linear_velocity = Vector2(0, 0)
 2:1/0/physics_layer_0/angular_velocity = 0.0
 3:1/0 = 0
+3:1/0/occlusion_layer_0/polygon = SubResource("OccluderPolygon2D_8dxse")
 3:1/0/physics_layer_0/linear_velocity = Vector2(0, 0)
 3:1/0/physics_layer_0/angular_velocity = 0.0
 3:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-71.9481, 195, 71.7713, 195, 72.1249, -195, -71.7713, -195)
 5:1/0 = 0
+5:1/0/occlusion_layer_0/polygon = SubResource("OccluderPolygon2D_pgqck")
 5:1/0/physics_layer_0/linear_velocity = Vector2(0, 0)
 5:1/0/physics_layer_0/angular_velocity = 0.0
 5:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-71.9481, 195, 71.7713, 195, 72.1249, -195, -71.7713, -195)
@@ -71,6 +86,7 @@ texture_region_size = Vector2i(390, 390)
 3:2/0/physics_layer_0/angular_velocity = 0.0
 3:2/0/physics_layer_0/polygon_0/points = PackedVector2Array(5.65685, 0.707108, 25.4558, 16.9706, 44.5477, 30.4056, 64.3467, 43.1335, 88.3884, 53.7401, 115.966, 63.6396, 150.614, 70.0036, 172.888, 72.4785, 195, 72, 195, -71.7714, 165.817, -73.1856, 139.654, -80.9637, 118.087, -93.3381, 99, -111, 86.9741, -129.401, 77.5, -148.5, 72.1249, -174.655, 71.7713, -195, -71.4178, -195, -72.1249, -168.291, -68.5894, -143.543, -66.1145, -127.986, -61.1647, -108.894, -57.9828, -96.8736, -48.7904, -77.0746, -36.0625, -53.7401, -16.9706, -25.4558, -1.74049, -7.84607)
 4:2/0 = 0
+4:2/0/occlusion_layer_0/polygon = SubResource("OccluderPolygon2D_obto6")
 4:2/0/physics_layer_0/linear_velocity = Vector2(0, 0)
 4:2/0/physics_layer_0/angular_velocity = 0.0
 4:2/0/physics_layer_0/polygon_0/points = PackedVector2Array(195, 71.9481, 195, -71.7713, -195, -72.1249, -195, 71.7713)
@@ -178,6 +194,7 @@ texture_region_size = Vector2i(390, 390)
 
 [sub_resource type="TileSet" id="TileSet_jhcxk"]
 tile_size = Vector2i(390, 390)
+occlusion_layer_0/light_mask = 1
 physics_layer_0/collision_layer = 4
 physics_layer_0/collision_mask = 11
 sources/1 = SubResource("TileSetAtlasSource_h1i7p")

@@ -96,3 +96,5 @@ Day 44 -- Created wall light template.
 Day 45 -- Finishing touches on first light, worked on second light.
 
 Day 46 -- Minor progress on second light.
+
+Day 47 -- Finished second light, started work on tile map occlusion layer.

@@ -1,7 +1,10 @@
-[gd_scene load_steps=3 format=3 uid="uid://cu4tehp03nc1h"]
+[gd_scene load_steps=4 format=3 uid="uid://cu4tehp03nc1h"]
 
 [ext_resource type="Texture2D" uid="uid://dhmo16nj6uorf" path="res://graphics/objects/wall_lamp.png" id="1_pp33a"]
 [ext_resource type="Texture2D" uid="uid://7o8v2n5qdh8p" path="res://graphics/lights/textures/circle.png" id="2_fivsp"]
+
+[sub_resource type="OccluderPolygon2D" id="OccluderPolygon2D_4s8rq"]
+polygon = PackedVector2Array(210, -11, 217, -11, 220, -5, 220, -1, 224, 2, 225, 35, 222, 38, 210, 49, 208, 47, 208, -7)
 
 [node name="WallLamp" type="StaticBody2D"]
 
@@ -17,5 +20,15 @@ region_rect = Rect2(0, 0, 841.2, 168.4)
 [node name="PointLight2D" type="PointLight2D" parent="."]
 color = Color(0.658824, 0.607843, 1, 1)
 energy = 4.2
+shadow_enabled = true
+shadow_filter = 1
 texture = ExtResource("2_fivsp")
 texture_scale = 2.5
+
+[node name="LightOccluder2D" type="LightOccluder2D" parent="."]
+occluder = SubResource("OccluderPolygon2D_4s8rq")
+
+[node name="LightOccluder2D2" type="LightOccluder2D" parent="."]
+position = Vector2(-4, 0)
+scale = Vector2(-1, 1)
+occluder = SubResource("OccluderPolygon2D_4s8rq")
