@@ -97,8 +97,8 @@ Day 45 -- Finishing touches on first light, worked on second light.
 
 Day 46 -- Minor progress on second light.
 
-Day 47 -- Finished second light, started work on tilemap occlusion layer.
+Day 47 -- Finished second light, started work on tileset occlusion layer.
 
 Day 48 -- Made progress on occlusion layer.
 
-Day 49 -- Finished occlusion layer on tilemap.
+Day 49 -- Finished occlusion layer on tileset.
