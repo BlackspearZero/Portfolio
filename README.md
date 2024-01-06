@@ -102,3 +102,5 @@ Day 47 -- Finished second light, started work on tileset occlusion layer.
 Day 48 -- Made progress on occlusion layer.
 
 Day 49 -- Finished occlusion layer on tileset.
+
+Day 50 -- Finished building lights.
