@@ -106,3 +106,5 @@ Day 49 -- Finished occlusion layer on tileset.
 Day 50 -- Finished building lights.
 
 Day 51 -- Added basic fan animation.
+
+Day 52 -- Added fans to level.
