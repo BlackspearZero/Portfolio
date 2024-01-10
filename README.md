@@ -109,6 +109,8 @@ Day 51 -- Added basic fan animation.
 
 Day 52 -- Added fans to level.
 
-Day 53 -- Taking a break from game dev tutorial, working on some tkinter apps. Established repo and set up first widget. Studied elements of tkinter
+Day 53 -- Taking a break from game dev tutorial, working on some tkinter apps. Established repo and set up first widget. Studied elements of tkinter.
 
-Day 54 -- Completed first widget
+Day 54 -- Completed first widget.
+
+Day 55 -- Began work on second widget.
