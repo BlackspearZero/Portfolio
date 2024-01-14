@@ -118,3 +118,5 @@ Day 55 -- Began work on second test app.
 Day 56 -- Completed second test app.
 
 Day 57 -- Made a third test app to study tkinter entry.get().
+
+Day 58 -- Experimenting withb tkinter variables in fourth test app.
